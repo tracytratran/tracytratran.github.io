@@ -31,8 +31,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: build
+        folder: build        # Deploy the build directory containing the compiled React app
         token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
-        # For a username.github.io repository, gh-pages branch is fine but
-        # make sure GitHub Pages settings are configured to use it
+        branch: gh-pages     # Deploy to gh-pages branch
+        clean: true         # Clean up artifacts from previous deployments
