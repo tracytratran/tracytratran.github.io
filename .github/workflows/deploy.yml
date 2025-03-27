@@ -34,3 +34,5 @@ jobs:
         folder: build
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
+        # For a username.github.io repository, gh-pages branch is fine but
+        # make sure GitHub Pages settings are configured to use it
