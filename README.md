@@ -1,88 +1,77 @@
-# Aktiv Medborgerskab Quiz App
+# 👋 Hi, I'm Tracy Trà Trần!
 
-A TypeScript and React-based quiz application with Tailwind CSS for studying Danish active citizenship questions.
+Aspiring **Frontend Developer** | Budding **Quality Assurance Engineer**  
+💻 Passionate about **UX/UI Design**, **clean code**, and building **meaningful software**.  
+📍 Currently based in Aarhus, Denmark.
 
-## Features
+---
 
-- Interactive quiz with questions from the Danish citizenship test
-- TypeScript for type safety and better developer experience
-- Tailwind CSS for modern, responsive design
-- Immediate feedback on answers
-- Progress tracking
-- Final score and personalized feedback
-- Option to review incorrect answers
-- Randomized questions for each quiz session
+### 🌱 About Me
 
-## Technology Stack
+I'm Tracy — a curious and motivated career-changer diving into the world of software development.  
+After years of working in education and customer service, I found my passion in tech where I can combine problem-solving, empathy, and creativity to build applications that matter.
 
-- React 18
-- TypeScript 4.9+
-- Tailwind CSS 3.3
-- Modern JavaScript (ES6+)
+I'm currently focused on:
+- Quality Assurance and Software Testing  
+- UX/UI Design Principles  
+- Frontend Development with React & TypeScript  
 
-## Getting Started
+---
 
-### Prerequisites
+### 🔧 Tech Skills
 
-- Node.js (v18+)
-- pnpm
+- **Languages:** TypeScript, JavaScript (Basics), HTML/CSS
+- **Frameworks & Tools:** React (Basics), Testing (Basics), Test Automation
+- **Softwares & Systems:** Student Record System (SRS), Timetabling System (STS), Service Management Platform (SMP)
+- **Soft Skills:** Communication, Empathy, Organization, Multilingual (🇻🇳🇬🇧🇩🇰)
 
-### Installation
+---
 
-1. Install dependencies:
+### 🧠 Currently Learning
 
-   ```
-   pnpm install
-   ```
+- `UX/UI Design Basics` – ReDI School of Digital Integration (Mar – Jun 2025)  
+- `Quality Assurance` – HackYourFuture Denmark (Feb – Apr 2025)  
+- `React & JavaScript` – ReDI School of Digital Integration (Sep – Dec 2024)
 
-2. Start the development server:
+---
 
-   ```
-   pnpm start
-   ```
+### 💼 Experience Highlights
 
-3. The app will open in your browser at [http://localhost:3000](http://localhost:3000)
+**Frontend Developer @ Studiz**  
+*Dec 2023 – Jul 2024 | Aarhus, Denmark*  
+→ Developed frontend components for student-focused tools.
 
-## How to Use
+**RMIT University Vietnam**  
+*2017 – 2022 | Hanoi, Vietnam*  
+→ Managed academic programs & student services, organized events, and handled tech systems like SRS & SMP.
 
-1. Read each question and select your answer by clicking one of the options
-2. You'll receive immediate feedback on your answer
-3. The app will automatically proceed to the next question
-4. After completing all questions, you'll see your final score
-5. If you had any incorrect answers, you can review them
-6. Click "Start New Quiz" to begin a new session with randomized questions
+---
 
-## Project Structure
+### 📌 Projects (Coming soon...)
 
-```
-src/
-├── components/
-│   ├── ExamSelector.tsx    # Exam selection component
-│   ├── LanguageSelector.tsx # Language selection component
-│   ├── Quiz.tsx            # Quiz component for showing questions and options
-│   └── Results.tsx         # Results component for showing score and review
-├── banks/                  # Question banks by year
-│   ├── 2016/
-│   ├── 2017/
-│   ├── 2018/
-│   ├── 2019/
-│   ├── 2020/
-│   ├── 2021/
-│   ├── 2022/
-│   ├── 2023/
-│   └── 2024/
-├── hooks/
-│   └── useAppTranslation.ts # Custom translation hook
-├── locales/                 # Internationalization files
-│   ├── da/                  # Danish translations
-│   ├── de/                  # German translations
-│   ├── en/                  # English translations
-│   ├── vi/                  # Vietnamese translations
-│   └── zh/                  # Chinese translations
-├── utils/
-│   └── examData.ts          # Exam data utilities
-├── types.ts                 # TypeScript interfaces
-├── i18n.ts                 # Internationalization setup
-├── App.tsx                 # Main application component
-└── index.tsx               # Entry point
-```
+I'm working on:
+- [ ] A portfolio site to showcase my projects
+- [ ] A mini QA automation test suite  
+- [ ] A UX redesign case study for a student tool
+
+Stay tuned! 🚀
+
+---
+
+### 🏅 Certifications
+
+- Certificate of Participation & Practical Project Completion  
+- Digital Networking Strategies  
+- Bevis for Prøve i Dansk 3 (Danish Language Certificate)
+
+---
+
+### 📫 Let's Connect
+
+- Email: [tratran.315@gmail.com](mailto:tratran.315@gmail.com)  
+- LinkedIn: [linkedin.com/in/tracytratran](https://linkedin.com/in/tracytratran)
+
+---
+
+> “Start where you are. Use what you have. Do what you can.” – Arthur Ashe
+
