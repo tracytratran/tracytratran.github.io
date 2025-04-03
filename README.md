@@ -50,11 +50,11 @@ I'm currently focused on:
 ### 📌 Projects
 
 See my works at:
-- [ ] A portfolio site to showcase my projects: [Link](https://github.com/tracytratran/tracytratran.github.io)
-- [ ] A Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://github.com/tracytratran/aktiv-medborgerskab)
-- [ ] A redesign of Linkedin and Tinder, which I call as Linder: [Link](https://github.com/tracytratran/linder)
+- [ ] A portfolio site to showcase my projects: [Link](https://github.com/tracytratran/tracytratran.github.io) (opens in new tab)
+- [ ] A Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://github.com/tracytratran/aktiv-medborgerskab) (opens in new tab)
+- [ ] A redesign of Linkedin and Tinder, which I call as Linder: [Link](https://github.com/tracytratran/linder) (opens in new tab)
 
-Stay tuned! 🚀
+Stay tuned for more! 🚀
 
 ---
 
