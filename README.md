@@ -51,8 +51,8 @@ I'm currently focused on:
 
 See my works at:
 - [ ] A portfolio site to showcase my projects: [Link](https://github.com/tracytratran/tracytratran.github.io) (opens in new tab)
-- [ ] A Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://github.com/tracytratran/aktiv-medborgerskab) (opens in new tab)
-- [ ] A redesign of Linkedin and Tinder, which I call as Linder: [Link](https://github.com/tracytratran/linder) (opens in new tab)
+- [ ] A Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://github.com/tracytratran/aktiv-medborgerskab){:target="_blank"}
+- [ ] A redesign of LinkedIn and Tinder, aka Linder. This is also my final project at REDI School of Digital Integration Aarhus: [Link](https://github.com/tracytratran/linder){:target="_blank"}
 
 Stay tuned for more! 🚀
 
@@ -69,7 +69,7 @@ Stay tuned for more! 🚀
 ### 📫 Let's Connect
 
 - Email: [tratran.315@gmail.com](mailto:tratran.315@gmail.com)  
-- LinkedIn: [linkedin.com/in/tracytratran](https://linkedin.com/in/tracytratran)
+- LinkedIn: [linkedin.com/in/tracytratran](https://linkedin.com/in/tracytratran){:target="_blank"}
 
 ---
 
