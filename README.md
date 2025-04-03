@@ -22,7 +22,7 @@ I'm currently focused on:
 
 - **Languages:** TypeScript, JavaScript (Basics), HTML/CSS
 - **Frameworks & Tools:** React (Basics), Testing (Basics), Test Automation
-- **Softwares & Systems:** Student Record System (SRS), Timetabling System (STS), Service Management Platform (SMP)
+- **Softwares & Systems:** MacOS, Windows
 - **Soft Skills:** Communication, Empathy, Organization, Multilingual (🇻🇳🇬🇧🇩🇰)
 
 ---
@@ -47,12 +47,12 @@ I'm currently focused on:
 
 ---
 
-### 📌 Projects (Coming soon...)
+### 📌 Projects
 
-I'm working on:
-- [ ] A portfolio site to showcase my projects
-- [ ] A mini QA automation test suite  
-- [ ] A UX redesign case study for a student tool
+See my works at:
+- [ ] A portfolio site to showcase my projects: [Link](https://github.com/tracytratran/tracytratran.github.io)
+- [ ] A Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://github.com/tracytratran/aktiv-medborgerskab)
+- [ ] A redesign of Linkedin and Tinder, which I call as Linder: [Link](https://github.com/tracytratran/linder)
 
 Stay tuned! 🚀
 
