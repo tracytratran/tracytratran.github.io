@@ -10,8 +10,8 @@ const Projects = () => {
     },
     {
       title: "Linder",
-      description:
-        "A combination of LinkedIn and Tinder, aka Linder. This is also my final project for  Javascript with React Course Fall 2024 at REDI School of Digital Integration Denmark",
+      description: `A combination of LinkedIn and Tinder, aka Linder.<br/>
+        This is also my final project for Javascript with React Course in Fall 2024 at REDI School of Digital Integration Denmark.`,
       tech: ["React", "JavaScript", "TailwindCSS"],
       image: "/Linder.png",
       link: "https://github.com/tracytratran/linder",
@@ -46,18 +46,20 @@ const Projects = () => {
                     {project.title}
                   </h3>
                   <p className="mt-2 text-justify text-gray-500">
-                    {project.description}
+                    <div
+                      dangerouslySetInnerHTML={{ __html: project.description }}
+                    />
                   </p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {project.tech.map((tech) => (
-                      <span
-                        key={tech}
-                        className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
+                </div>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {project.tech.map((tech) => (
+                    <span
+                      key={tech}
+                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
                 <a
                   href={project.link}
