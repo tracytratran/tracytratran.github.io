@@ -49,7 +49,7 @@ const Contact = () => {
             </a>
           </div>
           <p className="text-sm text-gray-500">
-            @2025 Tracy Tra Tran. All rights reserved.
+            © 2025 Tracy Tra Tran. All rights reserved.
           </p>
         </div>
       </div>
