@@ -1,3 +1,5 @@
+![Alt text]("public/CV - Tracy Tra Tran.jpg")
+
 # 👋 Hi, I'm Tracy Trà Trần!
 
 <div align="center">
