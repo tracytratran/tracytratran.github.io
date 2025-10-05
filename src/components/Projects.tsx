@@ -1,6 +1,14 @@
 const Projects = () => {
   const projects = [
     {
+      title: "Nemlingo",
+      description:
+        "It began as an idea for a Chrome browser extension to translate text within PDF files. Over time, it grew into a full language learning app built around journaling and shadowing, two key techniques my husband and I have successfully used to learn English and, more recently, Danish.",
+      tech: ["React", "TypeScript", "TailwindCSS"],
+      image: "/Nemlingo.png",
+      link: "https://nemlingo.com/",
+    },
+    {
       title: "PrepHub",
       description:
         "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship test)",
