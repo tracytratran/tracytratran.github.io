@@ -1,20 +1,24 @@
 # 👋 Hi, I'm Tracy Trà Trần!
 
+<div align="center">
+  <img src="/CV - Tracy Tra Tran.jpg" alt="Tracy Trà Trần - Professional Photo" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 Budding & Aspiring **Frontend Developer**
-💻 Passionate about **problem-solving**, **clean code**, and building **meaningful and user-friendly applications**.  
+💻
+Passionate about **problem-solving**, **clean code**, and building **meaningful and user-friendly applications**.
 📍 Currently based in Aarhus, Denmark.
 
 ---
 
 ### 🌱 About Me
-
 I'm Tracy — a curious and motivated career-changer diving into the world of software development.
 
 <!-- After years of working in education and customer service, I found my passion in tech where I can combine problem-solving, empathy, and creativity to build applications that matter. -->
 
 I'm currently focused on:
 
-- Frontend Development with React & TypeScript
+- Full-stack Development with specialism on Frontend Development
 - Quality Assurance and Software Testing
 - UX/UI Design Principles
 
@@ -31,8 +35,7 @@ I'm currently focused on:
 
 ### 🧠 Currently Learning
 
-- `UX/UI Design Basics` – ReDI School of Digital Integration (Mar – Jun 2025)
-- `Quality Assurance` – HackYourFuture Denmark (Feb – Apr 2025)
+- `Web Development` – HackYourFuture Denmark (Oct 2025 – July 2026)
 - `CS50x` – Harvard University
 
 ---
@@ -53,27 +56,12 @@ _2017 – 2022 | Hanoi, Vietnam_
 
 See my works at:
 
-- Portfolio site to showcase my projects: [Link](https://github.com/tracytratran/tracytratran.github.io){:target="\_blank"}
-- Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://tracytratran.github.io/aktiv-medborgerskab){:target="\_blank"}
-- A combination of LinkedIn and Tinder, aka Linder. This is also my final project at REDI School of Digital Integration Aarhus: [Link](https://github.com/tracytratran/linder){:target="\_blank"}
+- Portfolio site to showcase my projects: [Link](https://tracytratran.github.io/)
+- Danish preparation hub that helps students prepare for Danish related exams (Active citizenship, Danish language, Drivers license,etc.): [Link](https://tracytratran.github.io/aktiv-medborgerskab)
+- A combination of LinkedIn and Tinder, aka Linder. This is also my final project at REDI School of Digital Integration Aarhus: [Link](https://github.com/tracytratran/linder)
 
 Stay tuned for more! 🚀
 
 ---
-
-<!-- ### 🏅 Certifications
-
-- Certificate of Participation & Practical Project Completion
-- Digital Networking Strategies
-- Bevis for Prøve i Dansk 3 (Danish Language Certificate)
-
----
-
-### 📫 Let's Connect
-
-- Email: [tratran.315@gmail.com](mailto:tratran.315@gmail.com)
-- LinkedIn: [linkedin.com/in/tracytratran](https://linkedin.com/in/tracytratran){:target="\_blank"}
-
---- -->
 
 > “Start where you are. Use what you have. Do what you can.” – Arthur Ashe
