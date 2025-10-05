@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Tracy Trà Trần!
 
 <div align="center">
-  <img src="/CV - Tracy Tra Tran.jpg" alt="Tracy Trà Trần - Professional Photo" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/CV - Tracy Tra Tran.jpg" alt="Tracy Trà Trần - Professional Photo" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 Budding & Aspiring **Frontend Developer**
@@ -12,6 +12,7 @@ Passionate about **problem-solving**, **clean code**, and building **meaningful 
 ---
 
 ### 🌱 About Me
+
 I'm Tracy — a curious and motivated career-changer diving into the world of software development.
 
 <!-- After years of working in education and customer service, I found my passion in tech where I can combine problem-solving, empathy, and creativity to build applications that matter. -->
