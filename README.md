@@ -1,10 +1,6 @@
-![Alt text]("public/CV - Tracy Tra Tran.jpg")
-
 # 👋 Hi, I'm Tracy Trà Trần!
 
-<div align="center">
-  <img src="/CV - Tracy Tra Tran.jpg" alt="Tracy Trà Trần - Professional Photo" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</div>
+<img src="/CV - Tracy Tra Tran.jpg" alt="CV of Tracy Trà Trần" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 Budding & Aspiring **Frontend Developer**
 💻
