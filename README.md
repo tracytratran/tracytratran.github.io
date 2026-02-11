@@ -40,5 +40,5 @@ pnpm
 
 ## Contact
 
-- Portfolio: [tracytratran.github.io](https://tracytratran.github.io)
-  [<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/tracytratran" />](https://linkedin.com/in/tracytratran)
+[<img src="https://img.shields.io/badge/Portfolio-543DE0?style=for-the-badge&logo=About.me&logoColor=white" height="40" />](https://tracytratran.github.io)
+[<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/tracytratran" height="40" />](https://linkedin.com/in/tracytratran)
