@@ -8,7 +8,7 @@ const Contact = () => {
               href="https://linkedin.com/in/tracytratran"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl hover:text-amber-400"
+              className="text-2xl hover:text-sky-800"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Contact = () => {
               href="https://github.com/tracytratran"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl hover:text-amber-400"
+              className="text-2xl hover:text-sky-800"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const Contact = () => {
             </a>
             <a
               href="mailto:tratran.315@gmail.com"
-              className="text-2xl hover:text-amber-400"
+              className="text-2xl hover:text-sky-800"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Contact = () => {
               </svg>
             </a>
           </div>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-800">
             © 2025 Tracy Tra Tran. All rights reserved.
           </p>
         </div>

@@ -1,13 +1,13 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Nemlingo",
+      title: "Memory Game",
       description:
-        "It began as an idea for a Chrome browser extension to translate text within PDF files. Over time, it grew into a full language learning app built around journaling and shadowing, two key techniques my husband and I have successfully used to learn English and, more recently, Danish.",
-      tech: ["React", "TypeScript", "TailwindCSS"],
+        "The classic Memory Game, where a player needs to flip all the cards in a grid until they find all the matching pairs",
+      tech: ["JavaScript", "HTML", "CSS"],
       image: "/Nemlingo.png",
-      github: "",
-      demo: "https://nemlingo.com/",
+      github: "https://github.com/tracytratran/memory-game",
+      demo: "",
     },
     {
       title: "PrepHub",
@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ["React", "JavaScript", "TailwindCSS"],
       image: "/Linder.png",
       github: "https://github.com/tracytratran/linder",
-      demo: "https://github.com/tracytratran/linder",
+      demo: "",
     },
   ];
 
@@ -36,7 +36,7 @@ const Projects = () => {
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Projects
           </h2>
-          <div className="mt-4 h-1 w-16 bg-amber-400 mx-auto"></div>
+          <div className="mt-4 h-1 w-16 bg-sky-800 mx-auto"></div>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -53,51 +53,92 @@ const Projects = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-lg font-medium text-gray-900">
+                  <h3 className="text-lg font-bold text-gray-900">
                     {project.title}
                   </h3>
-                  <p className="mt-2 text-justify text-gray-500">
+                  <p className="mt-2 text-justify text-gray-800">
                     <div
                       dangerouslySetInnerHTML={{ __html: project.description }}
                     />
                   </p>
                 </div>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {project.tech.map((tech) => (
-                    <span
-                      key={tech}
-                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                <div className="mt-4 flex flex-wrap gap-2 justify-center">
+                  {project.tech.map((tech) => {
+                    const techLower = tech.toLowerCase();
+                    let badgeUrl;
+
+                    switch (techLower) {
+                      case "react":
+                        badgeUrl =
+                          "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB";
+                        break;
+                      case "typescript":
+                        badgeUrl =
+                          "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white";
+                        break;
+                      case "tailwindcss":
+                        badgeUrl =
+                          "https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC";
+                        break;
+                      case "javascript":
+                        badgeUrl =
+                          "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black";
+                        break;
+                      case "html":
+                        badgeUrl =
+                          "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white";
+                        break;
+                      case "css":
+                        badgeUrl =
+                          "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white";
+                        break;
+                      default:
+                        return (
+                          <span
+                            key={tech}
+                            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
+                          >
+                            {tech}
+                          </span>
+                        );
+                    }
+
+                    return (
+                      <img
+                        key={tech}
+                        src={badgeUrl}
+                        alt={tech}
+                        className="h-6"
+                      />
+                    );
+                  })}
                 </div>
                 <div className="flex flex-wrap gap-2 justify-center items-center mt-4 border border-transparent text-white text-sm text-center font-medium">
-                  <a
-                    href={project.github || "#"}
-                    className={`grow px-4 py-2 rounded-md ${
-                      project.github
-                        ? "bg-black hover:bg-gray-600"
-                        : "bg-gray-200 text-gray-600 cursor-not-allowed"
-                    }`}
-                    {...(project.github
-                      ? {}
-                      : { "aria-disabled": true, tabIndex: -1 })}
-                  >
-                    View Code
-                  </a>
                   <a
                     href={project.demo || "#"}
                     className={`grow px-4 py-2 rounded-md ${
                       project.demo
-                        ? "bg-amber-500 hover:bg-amber-600"
-                        : "bg-amber-100 cursor-not-allowed"
-                    } border border-amber-300`}
+                        ? "bg-sky-800 hover:bg-sky-700"
+                        : "bg-gray-200 text-gray-400 cursor-not-allowed"
+                    }`}
                     {...(project.demo
                       ? {}
                       : { "aria-disabled": true, tabIndex: -1 })}
                   >
                     View Demo
+                  </a>
+                  <a
+                    href={project.github || "#"}
+                    className={`grow px-4 py-2 rounded-md ${
+                      project.github
+                        ? "bg-black hover:bg-gray-600"
+                        : "bg-gray-200 text-gray-400 cursor-not-allowed"
+                    }`}
+                    {...(project.github
+                      ? {}
+                      : { "aria-disabled": true, tabIndex: -1 })}
+                  >
+                    View on GitHub
                   </a>
                 </div>
               </div>

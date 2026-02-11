@@ -27,7 +27,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-gray-900"
+                className="inline-flex items-center px-1 pt-1 text-gray-800 hover:underline"
               >
                 {item.name}
               </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="flex items-center sm:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:bg-gray-100"
             >
               {isOpen ? (
                 <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -56,7 +56,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                className="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100"
               >
                 {item.name}
               </a>
