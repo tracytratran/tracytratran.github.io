@@ -8,9 +8,9 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 ### Built With
 
-|                                                     Programming Language                                                     |                          Frontend Development                           |
-| :--------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="40" /> | <img src="https://skillicons.dev/icons?i=react,tailwind" height="40" /> |
+|                                                     Programming Language                                                     |                                                                                                                Frontend Development                                                                                                                |
+| :--------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="40" /> | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="40" /><img src="https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC" height="40" /> |
 
 ## Getting Started
 
