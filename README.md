@@ -1,21 +1,25 @@
 # Personal Portfolio
 
+<img src="/Tracy - banner.jpeg" alt="Banner to introducte Tracy Trà Trần" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
 ## 1. About the Project
 
 A modern, responsive portfolio website built with React, TypeScript, and TailwindCSS to showcase my work and skills.
 
 ### Built With
 
-[![React](https://skillicons.dev/icons?i=react)](https://reactjs.org/)
-[![TypeScript](https://skillicons.dev/icons?i=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
+|                    Programming Language                     |                          Frontend Development                           |
+| :---------------------------------------------------------: | :---------------------------------------------------------------------: |
+| <img src="https://skillicons.dev/icons?i=ts" height="40" /> | <img src="https://skillicons.dev/icons?i=react,tailwind" height="40" /> |
 
 ## 2. Getting Started
 
 ### Prerequisites
 
+```bash
 - Node.js (v14 or later)
 - pnpm
+```
 
 ### Installation
 
