@@ -6,7 +6,8 @@ const Projects = () => {
         "It began as an idea for a Chrome browser extension to translate text within PDF files. Over time, it grew into a full language learning app built around journaling and shadowing, two key techniques my husband and I have successfully used to learn English and, more recently, Danish.",
       tech: ["React", "TypeScript", "TailwindCSS"],
       image: "/Nemlingo.png",
-      link: "https://nemlingo.com/",
+      github: "",
+      demo: "https://nemlingo.com/",
     },
     {
       title: "PrepHub",
@@ -14,7 +15,8 @@ const Projects = () => {
         "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship test)",
       tech: ["React", "TypeScript", "TailwindCSS"],
       image: "/PrepHub.png",
-      link: "https://tracytratran.github.io/aktiv-medborgerskab/",
+      github: "https://github.com/tracytratran/aktiv-medborgerskab",
+      demo: "https://tracytratran.github.io/aktiv-medborgerskab/",
     },
     {
       title: "Linder",
@@ -22,7 +24,8 @@ const Projects = () => {
         This is also my final project for Javascript with React Course in Fall 2024 at REDI School of Digital Integration Denmark.`,
       tech: ["React", "JavaScript", "TailwindCSS"],
       image: "/Linder.png",
-      link: "https://github.com/tracytratran/linder",
+      github: "https://github.com/tracytratran/linder",
+      demo: "https://github.com/tracytratran/linder",
     },
   ];
 
@@ -69,12 +72,34 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.link}
-                  className="mt-4 inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-amber-400 hover:bg-amber-500"
-                >
-                  View Project
-                </a>
+                <div className="flex flex-wrap gap-2 justify-center items-center mt-4 border border-transparent text-sm text-center font-medium">
+                  <a
+                    href={project.github || "#"}
+                    className={`grow px-4 py-2 rounded-md ${
+                      project.github
+                        ? "bg-black hover:bg-gray-600 text-white"
+                        : "bg-gray-200 text-gray-600 cursor-not-allowed"
+                    }`}
+                    {...(project.github
+                      ? {}
+                      : { "aria-disabled": true, tabIndex: -1 })}
+                  >
+                    View Code
+                  </a>
+                  <a
+                    href={project.demo || "#"}
+                    className={`grow px-4 py-2 rounded-md ${
+                      project.demo
+                        ? "bg-amber-500 hover:bg-amber-600"
+                        : "bg-amber-100 text-amber-700 cursor-not-allowed"
+                    } border border-amber-300`}
+                    {...(project.demo
+                      ? {}
+                      : { "aria-disabled": true, tabIndex: -1 })}
+                  >
+                    View Demo
+                  </a>
+                </div>
               </div>
             ))}
           </dl>
