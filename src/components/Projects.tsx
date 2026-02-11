@@ -72,12 +72,12 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex flex-wrap gap-2 justify-center items-center mt-4 border border-transparent text-sm text-center font-medium">
+                <div className="flex flex-wrap gap-2 justify-center items-center mt-4 border border-transparent text-white text-sm text-center font-medium">
                   <a
                     href={project.github || "#"}
                     className={`grow px-4 py-2 rounded-md ${
                       project.github
-                        ? "bg-black hover:bg-gray-600 text-white"
+                        ? "bg-black hover:bg-gray-600"
                         : "bg-gray-200 text-gray-600 cursor-not-allowed"
                     }`}
                     {...(project.github
@@ -91,7 +91,7 @@ const Projects = () => {
                     className={`grow px-4 py-2 rounded-md ${
                       project.demo
                         ? "bg-amber-500 hover:bg-amber-600"
-                        : "bg-amber-100 text-amber-700 cursor-not-allowed"
+                        : "bg-amber-100 cursor-not-allowed"
                     } border border-amber-300`}
                     {...(project.demo
                       ? {}
