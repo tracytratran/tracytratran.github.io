@@ -2,17 +2,17 @@
 
 <img src="/public/Tracy-banner.jpeg" alt="Banner to introducte Tracy Trà Trần" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-## 1. About the Project
+## About the Project
 
 A modern, responsive portfolio website built with React, TypeScript, and TailwindCSS to showcase my work and skills.
 
 ### Built With
 
-|                    Programming Language                     |                          Frontend Development                           |
-| :---------------------------------------------------------: | :---------------------------------------------------------------------: |
-| <img src="https://skillicons.dev/icons?i=ts" height="40" /> | <img src="https://skillicons.dev/icons?i=react,tailwind" height="40" /> |
+|                                                     Programming Language                                                     |                          Frontend Development                           |
+| :--------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="40" /> | <img src="https://skillicons.dev/icons?i=react,tailwind" height="40" /> |
 
-## 2. Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ pnpm
    ```
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 3. Contact
+## Contact
 
 - Portfolio: [tracytratran.github.io](https://tracytratran.github.io)
 - LinkedIn: [Tracy Trà Trần](https://linkedin.com/in/tracytratran)
