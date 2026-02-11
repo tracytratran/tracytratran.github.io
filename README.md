@@ -41,4 +41,4 @@ pnpm
 ## Contact
 
 - Portfolio: [tracytratran.github.io](https://tracytratran.github.io)
-- LinkedIn: [Tracy Trà Trần](https://linkedin.com/in/tracytratran)
+  [<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/tracytratran" />](https://linkedin.com/in/tracytratran)
