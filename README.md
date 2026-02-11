@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-<img src="/Tracy - banner.jpeg" alt="Banner to introducte Tracy Trà Trần" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="/public/Tracy-banner.jpeg" alt="Banner to introducte Tracy Trà Trần" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 ## 1. About the Project
 
@@ -17,8 +17,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 ### Prerequisites
 
 ```bash
-- Node.js (v14 or later)
-- pnpm
+Node.js (v14 or later)
+pnpm
 ```
 
 ### Installation
