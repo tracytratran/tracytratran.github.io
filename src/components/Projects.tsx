@@ -1,20 +1,11 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Memory Game",
-      description:
-        "The classic Memory Game, where a player needs to flip all the cards in a grid until they find all the matching pairs",
-      tech: ["JavaScript", "HTML", "CSS"],
-      image: "/Nemlingo.png",
-      github: "https://github.com/tracytratran/memory-game",
-      demo: "",
-    },
-    {
       title: "PrepHub",
       description:
         "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship test)",
       tech: ["React", "TypeScript", "TailwindCSS"],
-      image: "/PrepHub.png",
+      image: "/images/projects/prep-hub.png",
       github: "https://github.com/tracytratran/aktiv-medborgerskab",
       demo: "https://tracytratran.github.io/aktiv-medborgerskab/",
     },
@@ -23,8 +14,17 @@ const Projects = () => {
       description: `A combination of LinkedIn and Tinder, aka Linder.<br/>
         This is also my final project for Javascript with React Course in Fall 2024 at REDI School of Digital Integration Denmark.`,
       tech: ["React", "JavaScript", "TailwindCSS"],
-      image: "/Linder.png",
+      image: "/images/projects/linder.png",
       github: "https://github.com/tracytratran/linder",
+      demo: "",
+    },
+    {
+      title: "Memory Game",
+      description:
+        "The classic Memory Game, where a player needs to flip all the cards in a grid until they find all the matching pairs",
+      tech: ["JavaScript", "HTML", "CSS"],
+      image: "/images/projects/memory-game.png",
+      github: "https://github.com/tracytratran/memory-game",
       demo: "",
     },
   ];
@@ -45,14 +45,15 @@ const Projects = () => {
                 key={project.title}
                 className="flex flex-col bg-white p-6 rounded-lg shadow h-full"
               >
-                <div className="aspect-w-16 aspect-h-9 mb-4">
+                <div className="mb-4">
+                  {/* TO-DO: Fix to all projects' image have the same height */}
                   <img
                     src={project.image}
                     alt={project.title}
                     className="object-cover rounded-lg"
                   />
                 </div>
-                <div className="flex-grow">
+                <div className="grow">
                   <h3 className="text-lg font-bold text-gray-900">
                     {project.title}
                   </h3>
