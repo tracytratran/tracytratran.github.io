@@ -3,12 +3,12 @@
   "name": "Tracy Tra Tran",
   "icons": [
     {
-      "src": "Tracy.png",
+      "src": "images/tracy/tracy.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "Tracy.png",
+      "src": "images/tracy/tracy.png",
       "sizes": "512x512",
       "type": "image/png"
     }
