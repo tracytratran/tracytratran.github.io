@@ -23,7 +23,7 @@ const Contact = () => {
               href="https://github.com/tracytratran"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl hover:text-sky-800"
+              className="text-2xl hover:text-gray-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const Contact = () => {
             </a>
             <a
               href="mailto:tratran.315@gmail.com"
-              className="text-2xl hover:text-sky-800"
+              className="text-2xl hover:text-red-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
