@@ -1,11 +1,11 @@
 const Projects = () => {
   const projects = [
     {
-      title: "PrepHub",
+      title: "Active Citizenship Quiz",
       description:
-        "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship test)",
+        "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship tests)",
       tech: ["React", "TypeScript", "TailwindCSS"],
-      image: "/images/projects/prep-hub.png",
+      image: "/images/projects/active-citizenship-quiz.png",
       github: "https://github.com/tracytratran/aktiv-medborgerskab",
       demo: "https://tracytratran.github.io/aktiv-medborgerskab/",
     },
