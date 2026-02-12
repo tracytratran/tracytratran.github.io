@@ -27,7 +27,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="inline-flex items-center px-1 pt-1 text-gray-800 hover:underline"
+                className="inline-flex items-center px-1 pt-1 text-gray-800 hover:font-bold hover:bg-gray-100"
               >
                 {item.name}
               </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100"
+                className="block px-3 py-2 text-base font-medium text-gray-800 hover:font-bold hover:bg-gray-100"
               >
                 {item.name}
               </a>
