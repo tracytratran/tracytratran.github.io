@@ -36,8 +36,8 @@ const Hero = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <div className="h-full w-full flex items-center justify-center p-4">
           <img
-            src="/Tracy.png"
-            alt="Tracy Tran"
+            src="/images/tracy/tracy.png"
+            alt="Illustration of Tracy with black glasses in blue shirt"
             className="h-auto w-auto max-h-[80%] max-w-[80%] object-contain"
           />
         </div>
