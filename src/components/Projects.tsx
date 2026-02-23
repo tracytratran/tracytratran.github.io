@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ["JavaScript", "HTML", "CSS"],
       image: "/images/projects/memory-game.png",
       github: "https://github.com/tracytratran/memory-game",
-      demo: "",
+      demo: "https://tracytratran.github.io/memory-game/frontend/",
     },
   ];
 
@@ -126,7 +126,7 @@ const Projects = () => {
                       ? {}
                       : { "aria-disabled": true, tabIndex: -1 })}
                   >
-                    View Demo
+                    View Live Demo
                   </a>
                   <a
                     href={project.github || "#"}
