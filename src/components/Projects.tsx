@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Memory Game",
       description:
         "The classic Memory Game, where a player needs to flip all the cards in a grid until they find all the matching pairs",
-      tech: ["JavaScript", "HTML", "CSS"],
+      tech: ["JavaScript", "HTML", "CSS", "Node.js", "Express.js", "SQLite"],
       image: "/images/projects/memory-game.png",
       github: "https://github.com/tracytratran/memory-game",
       demo: "https://tracytratran.github.io/memory-game/frontend/",
@@ -92,6 +92,18 @@ const Projects = () => {
                       case "css":
                         badgeUrl =
                           "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white";
+                        break;
+                      case "node.js":
+                        badgeUrl =
+                          "https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white";
+                        break;
+                      case "express.js":
+                        badgeUrl =
+                          "https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white";
+                        break;
+                      case "sqlite":
+                        badgeUrl =
+                          "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white";
                         break;
                       default:
                         return (
