@@ -49,7 +49,7 @@ const Contact = () => {
             </a>
           </div>
           <p className="text-sm text-gray-800">
-            © 2025 Tracy Tra Tran. All rights reserved.
+            © {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
           </p>
         </div>
       </div>
