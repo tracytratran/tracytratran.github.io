@@ -1,34 +1,102 @@
-const Projects = () => {
-  const projects = [
-    {
-      title: "Active Citizenship Quiz",
-      description:
-        "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship tests)",
-      tech: ["React", "TypeScript", "TailwindCSS"],
-      image: "/images/projects/aktiv-medborgerskab.png",
-      github: "https://github.com/tracytratran/aktiv-medborgerskab",
-      demo: "https://tracytratran.github.io/aktiv-medborgerskab/",
-    },
-    {
-      title: "Linder",
-      description: `A combination of LinkedIn and Tinder, aka Linder.<br/>
+const projects = [
+  {
+    title: "Active Citizenship Quiz",
+    description:
+      "Danish preparation hub that helps students prepare for Danish related exams (currently only supports active citizenship tests)",
+    tech: ["React", "TypeScript", "TailwindCSS"],
+    image: "/images/projects/aktiv-medborgerskab.png",
+    github: "https://github.com/tracytratran/aktiv-medborgerskab",
+    demo: "https://tracytratran.github.io/aktiv-medborgerskab/",
+  },
+  {
+    title: "Hack Your Events",
+    description:
+      "A ticket platform that helps people view and buy tickets for events",
+    tech: ["React", "JavaScript", "MaterialUI"],
+    image: "/images/projects/hack-your-events.png",
+    github: "https://github.com/tracytratran/events-startup-project",
+    demo: "https://events-startup-project.onrender.com/",
+  },
+  {
+    title: "Memory Game",
+    description:
+      "The classic Memory Game, where a player needs to flip all the cards in a grid until they find all the matching pairs",
+    tech: ["JavaScript", "HTML", "CSS", "Node.js", "Express.js", "SQLite"],
+    image: "/images/projects/memory-game.png",
+    github: "https://github.com/tracytratran/memory-game",
+    demo: "https://tracytratran.github.io/memory-game/frontend/",
+  },
+  {
+    title: "Linder",
+    description: `A combination of LinkedIn and Tinder, aka Linder.<br/>
         This is also my final project for Javascript with React Course in Fall 2024 at REDI School of Digital Integration Denmark.`,
-      tech: ["React", "JavaScript", "TailwindCSS"],
-      image: "/images/projects/linder.png",
-      github: "https://github.com/tracytratran/linder",
-      demo: "",
-    },
-    {
-      title: "Memory Game",
-      description:
-        "The classic Memory Game, where a player needs to flip all the cards in a grid until they find all the matching pairs",
-      tech: ["JavaScript", "HTML", "CSS", "Node.js", "Express.js", "SQLite"],
-      image: "/images/projects/memory-game.png",
-      github: "https://github.com/tracytratran/memory-game",
-      demo: "https://tracytratran.github.io/memory-game/frontend/",
-    },
-  ];
+    tech: ["React", "JavaScript", "TailwindCSS"],
+    image: "/images/projects/linder.png",
+    github: "https://github.com/tracytratran/linder",
+    demo: "",
+  },
+];
 
+const badgeUrl = (tech: string) => {
+  const techLower = tech.toLowerCase();
+  let badgeUrl;
+
+  switch (techLower) {
+    case "css":
+      badgeUrl =
+        "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white";
+      break;
+    case "express.js":
+      badgeUrl =
+        "https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white";
+      break;
+    case "html":
+      badgeUrl =
+        "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white";
+      break;
+    case "javascript":
+      badgeUrl =
+        "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black";
+      break;
+    case "materialui":
+      badgeUrl =
+        "https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white";
+      break;
+    case "node.js":
+      badgeUrl =
+        "https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white";
+      break;
+    case "react":
+      badgeUrl =
+        "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB";
+      break;
+    case "sqlite":
+      badgeUrl =
+        "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white";
+      break;
+    case "tailwindcss":
+      badgeUrl =
+        "https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC";
+      break;
+    case "typescript":
+      badgeUrl =
+        "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white";
+      break;
+    default:
+      return (
+        <span
+          key={tech}
+          className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
+        >
+          {tech}
+        </span>
+      );
+  }
+
+  return <img key={tech} src={badgeUrl} alt={tech} className="h-6" />;
+};
+
+const Projects = () => {
   return (
     <div id="projects" className="bg-gray-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -46,7 +114,6 @@ const Projects = () => {
                 className="flex flex-col bg-white p-6 rounded-lg shadow h-full"
               >
                 <div className="mb-4">
-                  {/* TO-DO: Fix to all projects' image have the same height */}
                   <img
                     src={project.image}
                     alt={project.title}
@@ -64,67 +131,7 @@ const Projects = () => {
                   </p>
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2 justify-center">
-                  {project.tech.map((tech) => {
-                    const techLower = tech.toLowerCase();
-                    let badgeUrl;
-
-                    switch (techLower) {
-                      case "react":
-                        badgeUrl =
-                          "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB";
-                        break;
-                      case "typescript":
-                        badgeUrl =
-                          "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white";
-                        break;
-                      case "tailwindcss":
-                        badgeUrl =
-                          "https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC";
-                        break;
-                      case "javascript":
-                        badgeUrl =
-                          "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black";
-                        break;
-                      case "html":
-                        badgeUrl =
-                          "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white";
-                        break;
-                      case "css":
-                        badgeUrl =
-                          "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white";
-                        break;
-                      case "node.js":
-                        badgeUrl =
-                          "https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white";
-                        break;
-                      case "express.js":
-                        badgeUrl =
-                          "https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white";
-                        break;
-                      case "sqlite":
-                        badgeUrl =
-                          "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white";
-                        break;
-                      default:
-                        return (
-                          <span
-                            key={tech}
-                            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
-                          >
-                            {tech}
-                          </span>
-                        );
-                    }
-
-                    return (
-                      <img
-                        key={tech}
-                        src={badgeUrl}
-                        alt={tech}
-                        className="h-6"
-                      />
-                    );
-                  })}
+                  {project.tech.map((tech) => badgeUrl(tech))}
                 </div>
                 <div className="flex flex-wrap gap-2 justify-center items-center mt-4 border border-transparent text-white text-sm text-center font-medium">
                   <a
