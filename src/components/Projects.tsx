@@ -15,7 +15,7 @@ const projects = [
     tech: ["React", "JavaScript", "TailwindCSS", "shadcn/ui"],
     image: "/images/projects/smart-kurv.png",
     github: "https://github.com/tracytratran/smart-kurv",
-    demo: "",
+    demo: "https://smart-kurv-one.vercel.app/",
   },
   {
     title: "Hack Your Events",
