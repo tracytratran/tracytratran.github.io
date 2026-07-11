@@ -9,6 +9,15 @@ const projects = [
     demo: "https://tracytratran.github.io/aktiv-medborgerskab/",
   },
   {
+    title: "Smart Kurv",
+    description:
+      "A product discovery app where users can search across Bilka, Føtex and Netto, compare options, and build a shopping list. Smart Kurv helps budget-conscious Danish households find which Salling store fills their weekly shopping list cheapest, so they spend less and shop faster.",
+    tech: ["React", "JavaScript", "TailwindCSS", "shadcn/ui"],
+    image: "/images/projects/smart-kurv.png",
+    github: "https://github.com/tracytratran/smart-kurv",
+    demo: "",
+  },
+  {
     title: "Hack Your Events",
     description:
       "A ticket platform that helps people view and buy tickets for events",
@@ -69,6 +78,10 @@ const badgeUrl = (tech: string) => {
     case "react":
       badgeUrl =
         "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB";
+      break;
+    case "shadcn/ui":
+      badgeUrl =
+        "https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcn/ui&logoColor=white";
       break;
     case "sqlite":
       badgeUrl =
